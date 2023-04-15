@@ -1,0 +1,42 @@
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+    .question {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #333;
+    }
+  
+    .btn.btn-primary.show-answer {
+      margin-top: 10px;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: bold;
+      background-color: blue;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: #fff;
+  
+      &:hover:not([disabled]) {
+        background-color: darkblue;
+      }
+  
+      &[disabled] {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+    }
+  
+    .answer {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 20px;
+      color: #333;
+    }
+  }
+  
